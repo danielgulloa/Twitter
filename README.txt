@@ -162,6 +162,17 @@ user1	[3,1,2]
 user2	[1,4,0]
 user3	[2,0,2]
 
+--------------------------------------------------
+MakeConnectivityMatrix
+Using the files DirectLinks.csv and TwoLinkSeparation, it obtains the
+connectivity between two nodes.
+The connectivity between A and B is 1 if A follows B, or 
+(number of users that are followed by both A and B)/(Total number of people that user A
+follows)
+
+Since it is a directed graph, the connectivity between A and B could be
+different form the connectivity between B and A.
+
 
 
 
